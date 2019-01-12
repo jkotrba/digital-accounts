@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-import AccountTable from './components/AccountsTable'
+import AccountsContainer from './components/AccountsContainer'
 
 class App extends Component {
   render() {
@@ -9,7 +9,7 @@ class App extends Component {
         <header>
         </header>
         <main>
-          <AccountTable />
+          <AccountsContainer />
         </main>
       </div>
     )
